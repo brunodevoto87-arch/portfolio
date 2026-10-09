@@ -43,7 +43,7 @@ function Projects(){
                     </div>
                     {/*contador*/}
                     <p className="project-count">
-                        {proyectosFiltrados.length}{""}
+                        {proyectosFiltrados.length} {""}
                         {proyectosFiltrados.length === 1 ?
                         "proyecto" : "proyectos"}
                     </p>
