@@ -59,4 +59,44 @@ export const projects = [
     imagen: "/images/projects/piedra-papel-tijera.png",
     destacado: false,
   },
+    {
+    id: 7,
+    nombre: "Mini Message Board",
+    descripcion: "Foro de mensajes con Express y EJS. Permite crear, ver y eliminar mensajes. Incluye validación de formularios.",
+    tech: ["Node.js", "Express", "EJS", "CSS3"],
+    demo: "https://mini-message-board-hazel.vercel.app",
+    repo: "https://github.com/brunodevoto87-arch/mini-message-board",
+    imagen: "/images/projects/mini-message-board.png",
+    destacado: false,
+  },
+  {
+    id: 8,
+    nombre: "Inventory App",
+    descripcion: "Aplicación de gestión de inventario para un supermercado. CRUD completo de categorías y productos con PostgreSQL.",
+    tech: ["Node.js", "Express", "EJS", "PostgreSQL"],
+    demo: "https://inventory-app-odke.onrender.com",
+    repo: "https://github.com/brunodevoto87-arch/inventory-app",
+    imagen: "/images/projects/inventory-app.png",
+    destacado: true, // Lo pongo como destacado porque es el más completo
+  },
+    {
+    id: 9,
+    nombre: "Basic Informational Site",
+    descripcion: "Servidor web HTTP creado desde cero con Node.js puro. Enrutamiento manual, lectura de archivos y manejo de status codes.",
+    tech: ["Node.js", "HTML", "CSS3"],
+    demo: "", // O el link que uses
+    repo: "https://github.com/brunodevoto87-arch/basic_informational_site",
+    imagen: "/images/projects/basic-site.png",
+    destacado: false,
+  },
+  {
+    id: 10,
+    nombre: "Pokémon API",
+    descripcion: "Aplicación que consume la PokéAPI para mostrar información de Pokémon. Incluye búsqueda y renderizado dinámico.",
+    tech: ["JavaScript", "API REST", "HTML", "CSS3"],
+    demo: "https://proyecto-memory-card-pokemon.vercel.app",
+    repo: "https://github.com/brunodevoto87-arch/proyecto_api_pokemon", // Ajustá el nombre si es distinto
+    imagen: "/images/projects/memory-card-pokemon.png",
+    destacado: false,
+  },
 ];
